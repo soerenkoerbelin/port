@@ -1,0 +1,161 @@
+@import "./../App.scss";
+
+.icons {
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+.hex-code:hover,
+.font-code:hover {
+  transform: translateY(5px);
+}
+
+// .font-code {
+//   min-inline-size: max-content;
+// }
+
+.hex-code,
+.font-code,
+.copyright,
+.technology {
+  color: #f7f7f9;
+  padding-left: 2rem;
+  font-size: 0.5rem;
+  min-inline-size: max-content;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fab,
+.fa {
+  color: #f7f7f9;
+  display: inline;
+  padding: 0 1vh;
+}
+
+// MOBILE S
+@media (min-width: 320px) {
+  .fab,
+  .fa {
+    font-size: 0.8rem;
+    padding: 0 0.7vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 1.25rem;
+    font-size: 0.8rem;
+  }
+}
+
+// MOBILE M
+@media (min-width: 375px) {
+  .fab,
+  .fa {
+    font-size: 0.85rem;
+    padding: 0 0.75vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+// MOBILE L
+@media (min-width: 425px) {
+  .fab,
+  .fa {
+    font-size: 0.9rem;
+    padding: 0 0.8vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+// TABLET
+@media (min-width: 768px) {
+  .fab,
+  .fa {
+    font-size: 1.2rem;
+    padding: 0 1vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+// LAPTOP
+@media (min-width: 1024px) {
+  .fab,
+  .fa {
+    font-size: 1.25rem;
+    padding: 0 1vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 2rem;
+    font-size: 1.25rem;
+  }
+}
+
+// LARGE DEVICE
+@media (min-width: 1440px) {
+  .fab,
+  .fa {
+    font-size: 1.5rem;
+    padding: 0 1.1vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 1.8rem;
+    font-size: 1.5rem;
+  }
+}
+
+// 4k
+@media (min-width: 2560px) {
+  .fab,
+  .fa {
+    font-size: 1.9rem;
+    padding: 0 1.25vh;
+  }
+
+  .hex-code,
+  .font-code,
+  .copyright,
+  .technology {
+    padding-left: 2rem;
+    font-size: 1.9rem;
+  }
+}

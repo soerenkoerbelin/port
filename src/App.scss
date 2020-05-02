@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.App {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #080705;
+}
+
+h2 {
+  font-size: 0.8rem;
+  color: #080705;
+}
+
+p {
+  font-size: 0.5rem;
+}
+
+li {
+  font-size: 0.5rem;
+}
+
+// MOBILE S
+@media (min-width: 320px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: .9rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  li {
+    font-size: 0.65rem;
+  }
+}
+
+// MOBILE M
+@media (min-width: 375px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+}
+
+// MOBILE L
+@media (min-width: 425px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+}
+
+// TABLET
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
+
+// LAPTOP
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.25;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+// LARGE DEVICE
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+// 4k
+@media (min-width: 2560px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  li {
+    font-size: 2rem;
+  }
+}
