@@ -16,6 +16,14 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm deploy`
+### `npm run deploy`
 
 Before calling deploy, add the "homepage": "http://soerenkoerbelin.github.io/port" property to the top of the package.json file. This will deploy the app to your GitHub Pages. Afterwards, remove the property and restart by calling `start`
+
+
+TODOS: 
+
+- https://www.npmjs.com/package/react-infinite-scroller --> load photo items on scroll
+- Create fs-reader-app that creates randomly sorted jsons
+- Scale down images
+- Optimize content
