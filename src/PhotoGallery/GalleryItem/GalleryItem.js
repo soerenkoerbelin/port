@@ -5,7 +5,7 @@ import "../PhotoGallery.scss";
 function GalleryItem(props) {
   return (
     <figure key={props.id} className="gallery-item">
-      <img src={props.src} className="gallery-img"></img>
+      <img src={props.src} className="gallery-img" alt={props.src}></img>
     </figure>
   );
 }

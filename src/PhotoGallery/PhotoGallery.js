@@ -8,8 +8,8 @@ function PhotoGallery() {
 
   return (
     <div className="gallery">
-      {images.map(({index, src}) => {
-        return <GalleryItem key={index} src={src}/>;
+      {images.map(({src}) => {
+        return <GalleryItem key={src} src={src}/>;
       })}
     </div>
   );
