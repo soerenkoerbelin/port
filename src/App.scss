@@ -34,25 +34,6 @@ li {
 // MOBILE S
 @media (min-width: 320px) {
   h1 {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: .9rem;
-  }
-
-  p {
-    font-size: 0.7rem;
-  }
-
-  li {
-    font-size: 0.65rem;
-  }
-}
-
-// MOBILE M
-@media (min-width: 375px) {
-  h1 {
     font-size: 1.1rem;
   }
 
@@ -69,29 +50,48 @@ li {
   }
 }
 
-// MOBILE L
-@media (min-width: 425px) {
+// MOBILE M
+@media (min-width: 375px) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   h2 {
-    font-size: 1;
+    font-size: 1rem;
   }
 
   p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   li {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+
+// MOBILE L
+@media (min-width: 425px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.1;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  li {
+    font-size: 0.85rem;
   }
 }
 
 // TABLET
 @media (min-width: 768px) {
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.65rem;
   }
 
   h2 {
