@@ -5,7 +5,7 @@ import {
 } from "react-lazy-load-image-component";
 
 import "./PhotoGallery.scss";
-import images from "./images";
+import images from "./images.json";
 
 function PhotoGallery() {
   return (
