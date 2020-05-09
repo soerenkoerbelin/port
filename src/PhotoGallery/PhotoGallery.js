@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
 
 import "./PhotoGallery.scss";
 import images from "./images";
-import GalleryItem from "./GalleryItem/GalleryItem";
 
 function PhotoGallery() {
-
   return (
     <div className="gallery">
-      {images.map(({src}) => {
-        return <GalleryItem key={src} src={src}/>;
-      })}
+      {images.map((image) => 
+        <LazyLoadImage
+          key={image.src}
+          src={image.src}
+        />
+        )}
     </div>
   );
 }
 
-export default PhotoGallery;
+export default trackWindowScroll(PhotoGallery);

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Context } from "./../_helper/store";
 
-import PhotoGallery from "./../PhotoGallery/PhotoGallery"
+import PhotoGallery from "./../PhotoGallery/PhotoGallery";
 
 import "./CenterContainer.scss";
 
