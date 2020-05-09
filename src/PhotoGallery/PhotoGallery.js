@@ -10,12 +10,9 @@ import images from "./images.json";
 function PhotoGallery() {
   return (
     <div className="gallery">
-      {images.map((image) => 
-        <LazyLoadImage
-          key={image.src}
-          src={image.src}
-        />
-        )}
+      {images.map((image) => (
+        <LazyLoadImage key={image.src} src={image.src} />
+      ))}
     </div>
   );
 }

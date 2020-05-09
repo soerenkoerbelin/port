@@ -23,7 +23,14 @@ function RightContainer() {
   }
 
   function changeFontFamily() {
-    const fonts = ["Comfortaa", "Lato", "Muli", "IBM Plex Mono", "Nunito", "Ubuntu"];
+    const fonts = [
+      "Comfortaa",
+      "Lato",
+      "Muli",
+      "IBM Plex Mono",
+      "Nunito",
+      "Ubuntu",
+    ];
     const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
     dispatch({ type: "CHANGE_FONT", payload: randomFont });
   }
@@ -49,7 +56,9 @@ function RightContainer() {
         <span className="hex-code pointer" onClick={() => changeColor()}>
           {store.color}
         </span>
-        <span className="font-code pointer" onClick={() => changeFontFamily()}>{store.font}</span>
+        <span className="font-code pointer" onClick={() => changeFontFamily()}>
+          {store.font}
+        </span>
         <span className="technology">REACT / CSS GRID</span>
         <span className="copyright">&copy;2020</span>
       </div>

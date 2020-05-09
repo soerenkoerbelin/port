@@ -1,3 +1,10 @@
+My approach of building a responsive portfolio page based on REACT and CSS Grid. 
+Nothing special, some gimmicks like changing fonds and colors on every refresh or on click. 
+The gallery loads images on scroll and the alignment basically is implemented using 
+CSS grid and flexbox.
+Because I did not wanted to use redux I built a basic store to pass the fonts and colors through the application. 
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -19,11 +26,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run deploy`
 
 Before calling deploy, add the "homepage": "https://soerenkoerbelin.com" property to the top of the package.json file. This will deploy the app to your GitHub Pages. Afterwards, remove the property and restart by calling `start`
-
-
-TODOS: 
-
-- https://www.npmjs.com/package/react-infinite-scroller --> load photo items on scroll
-- Create fs-reader-app that creates randomly sorted jsons
-- Scale down images
-- Optimize content

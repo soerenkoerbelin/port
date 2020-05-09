@@ -11,7 +11,7 @@ function CenterContainer() {
     <div className="center-container" style={{ fontFamily: store.font }}>
       <div className="top-container">
         <h1>
-          ME<span style={{ color: store.color }}>. </span>{" "}
+          ME<span style={{ color: store.color }}>. </span>
         </h1>
         <h1>
           SALUTES<span style={{ color: store.color }}>. </span>YOU
