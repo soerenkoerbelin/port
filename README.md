@@ -18,7 +18,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
-Before calling deploy, add the "homepage": "http://soerenkoerbelin.github.io/port" property to the top of the package.json file. This will deploy the app to your GitHub Pages. Afterwards, remove the property and restart by calling `start`
+Before calling deploy, add the "homepage": "https://soerenkoerbelin.com" property to the top of the package.json file. This will deploy the app to your GitHub Pages. Afterwards, remove the property and restart by calling `start`
 
 
 TODOS: 

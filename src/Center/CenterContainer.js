@@ -29,7 +29,7 @@ function CenterContainer() {
       >
         <div className="rotation-wrapper">
           <div className="headline">
-            <p className="underline uppercase">What I do</p>
+            <p className="underline uppercase">I do</p>
           </div>
           <div className="content">
             <ul>
@@ -43,11 +43,12 @@ function CenterContainer() {
 
         <div className="rotation-wrapper">
           <div className="headline">
-            <p className="underline uppercase">What I learn</p>
+            <p className="underline uppercase">I learn</p>
           </div>
           <div className="content">
             <ul>
               <li>MERN stack stuff</li>
+              <li>PWA</li>
               <li>Photography things</li>
             </ul>
           </div>
