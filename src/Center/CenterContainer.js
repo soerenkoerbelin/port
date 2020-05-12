@@ -33,9 +33,10 @@ function CenterContainer() {
           </div>
           <div className="content">
             <ul>
-              <li>Web Development / Online Marketing Environment</li>
+              <li>Web Developer based in Hamburg</li>
+              <li>Web Development in an Online Marketing Environment</li>
               <li>
-                Using Java, Spring Boot, Angular, AWS, Mongo, MYSQL, CI/CD
+                Using Java, Spring Boot, Angular, ReactJS, AWS, MongoDB, MYSQL, CI/CD
               </li>
             </ul>
           </div>

@@ -11,7 +11,7 @@ function PhotoGallery() {
   return (
     <div className="gallery">
       {images.map((image) => (
-        <LazyLoadImage key={image.src} src={image.src} />
+        <LazyLoadImage key={image.src} alt={image.src} src={image.src} />
       ))}
     </div>
   );
