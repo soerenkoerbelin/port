@@ -60,7 +60,7 @@ function RightContainer() {
           {store.font}
         </span>
         <span className="technology">REACT / CSS GRID</span>
-        <span className="copyright">&copy;2020</span>
+        <span className="copyright">&copy;{new Date().getFullYear()}</span>
       </div>
     </div>
   );
